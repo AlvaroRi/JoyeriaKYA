@@ -1,0 +1,782 @@
+/* ========================================================================= */
+/* 1. Reset Básico y Variables de Estilo */
+/* ========================================================================= */
+:root {
+    /* Paleta de Colores para Bisutería */
+
+    --color-primary-dark: #FADADD;
+    --color-accent: #CCAC87;
+    --color-text-dark: #0a0a0a;
+    --color-text-light: #E5E4E2;
+    --color-background-light: white;
+
+
+    /* Variables de Tipografía */
+    --font-heading: Precious;
+    --font-base: sans-serif;
+
+    /* Espaciado */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 40px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-base);
+    background: var(--color-background-light);
+    color: var(--color-text-dark);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ========================================================================= */
+/* 2. Header y Navegación (Estilos de Escritorio) */
+/* ========================================================================= */
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--spacing-md);
+    box-shadow: 0 4px 6px rgba(104, 103, 112, 0.1);
+}
+
+.header h1 {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 0;
+    color: var(--color-accent);
+}
+
+.main-nav {
+    /* Asegura que en escritorio sea una fila para el menú */
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    padding: var(--spacing-sm) 0;
+}
+
+.nav-list {
+    /* En escritorio, visible y horizontal */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* CLAVE: Estos anulan el "height: 0" y "overflow: hidden" de móvil */
+    height: auto ;
+    overflow: visible ;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    display: block;
+    margin: 0 var(--spacing-xs);
+    font-weight: 500;
+    color: var(--color-text-dark);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list li a:hover,
+.nav-list li a[aria-current="page"] {
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
+    border-radius: 4px;
+}
+
+/* Estilo del Botón de Menú (Oculto por defecto en escritorio) */
+.menu-toggle {
+    display: none; /* Oculto en escritorio */
+
+    /* Estilos del botón de producto */
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: var(--spacing-sm) auto;
+    transition: background-color 0.3s;
+}
+
+.menu-toggle:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+
+/* ========================================================================= */
+/* 3. Layout de Productos (Product Grid) y Contenido Principal */
+/* ========================================================================= */
+.main-content {
+    /* CORRECCIÓN: Para tener 1/3 de margen en cada lado, el contenido es 1/3 */
+    width: calc(100% / 2);
+
+    margin: var(--spacing-lg) auto;
+    padding: 0;
+    flex: 1;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-accent);
+    border-bottom: 2px solid var(--color-accent);
+    display: inline-block;
+    padding-bottom: var(--spacing-xs);
+    width: 100%;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    /* 4 columnas en escritorio */
+    width: calc(25% - 15px);
+    min-width: 200px;
+    background-color: var(--color-background-light);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    /* Combinamos elevar la tarjeta con el aumento de escala */
+    transform: translateY(-10px) scale(1.05);
+    /* Intensificamos la sombra para dar profundidad */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+    /* Aseguramos que la tarjeta se vea por encima de las demás al crecer */
+    z-index: 10;
+}
+
+.product-figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+.product-figure img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-details-overlay {
+    padding: var(--spacing-md);
+    background-color: #fff;
+    text-align: center;
+    position: static;
+}
+
+.product-name {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    margin: var(--spacing-sm) 0;
+    color: var(--color-text-dark);
+}
+
+.product-brand, .product-weight {
+    font-size: 0.9rem;
+    color: #666;
+    margin: var(--spacing-xs) 0;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--color-accent);
+    margin: var(--spacing-sm) 0;
+}
+
+.buy-button {
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-top: var(--spacing-sm);
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+/* Botones adicionales */
+.btn-whatsapp, .btn-pdf {
+    background-color: var(--color-accent);
+    color: var(--color-primary-dark);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 var(--spacing-xs);
+    transition: background-color 0.3s;
+}
+
+.btn-whatsapp:hover, .btn-pdf:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+/* ========================================================================= */
+/* 4. Footer */
+/* ========================================================================= */
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-overlay {
+    display: none; /* Se mantiene oculto hasta que el clic lo cambie */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* El sombreado de atrás */
+    z-index: 9999; /* Para que esté por encima de todo */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor de la imagen en el modal */
+.modal-img-container {
+    width: 70%;
+    max-width: 300px; /* Tamaño normal en el modal */
+    margin: 0 auto;
+    overflow: hidden; /* Importante para que el zoom no se desborde */
+    border-radius: 8px;
+    cursor: zoom-in;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Estado cuando tiene zoom (añadiremos esta clase con JS) */
+.modal-img-container.zoom-active {
+    max-width: 90%; /* Se expande al ancho del modal */
+    cursor: zoom-out;
+}
+
+.modal-img-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+}
+
+/* El efecto de la imagen al activarse el zoom */
+.modal-img-container.zoom-active img {
+    transform: scale(1.0); /* Magnificación controlada */
+}
+
+/* Sliders */
+.auto-slider-container {
+    width: 100%;
+    max-width: 1100px;
+    min-height: 250px;
+    
+    
+    margin: 30px auto; /* Centrado con margen */
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 3 / 1;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+
+.auto-slider-track {
+    display: flex;
+    height: 100%;
+    width: 300%;
+    transition: transform 0.8s ease-in-out;
+    animation: slide 15s infinite;
+}
+
+.auto-slider-track img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Cambia cover por contain */
+    background-color: #f9f9f9; /* Fondo neutro para que no queden huecos blancos */
+    flex-shrink: 0;
+    transition: transform 0.5s ease;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-33.333%); }
+    66% { transform: translateX(-66.666%); }
+    100% { transform: translateX(0); }
+}
+
+.manual-slider-section {
+    margin: var(--spacing-lg) 0;
+    flex: 1;
+    margin: auto;
+}
+
+.manual-slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+
+.slider-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.manual-slider-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+
+.slide-card {
+    min-width: 250px;
+    text-align: center;
+    background: white;
+    border: 2px solid #FADADD;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex: 0 0 calc(33.333% - 13.33px);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slide-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.slider-arrow {
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.slider-arrow:hover {
+    background: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+
+/* ========================================================================= */
+/* 5. Responsividad (Mobile First - Quiebre en 768px) */
+/* ========================================================================= */
+
+/* Tablet y Móviles: Diseño Columna (768px o menos) */
+@media (max-width: 768px) {
+
+    /* 1. Menú Desplegable */
+    .menu-toggle {
+        display: block; /* Muestra el botón de menú */
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .main-nav .nav-list {
+    /* ... (resto de estilos) ... */
+
+    /* Regla de ocultación, se mantiene igual */
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+.main-nav .nav-list[data-visible="true"] {
+    height: 300px; /* Esta altura fija es la que debemos cambiar o modificar */
+}
+    .nav-list {
+        /* Se vuelve columna */
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+
+        /* Oculto por defecto, se despliega con JS */
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+        /* CLAVE: Si la lista es visible en celular, ¡la regla de flexbox de escritorio la puede estar anulando! */
+        display: block; /* Cambiamos a 'block' para simplificar la ocultación vertical */
+
+        /* El truco para ocultar el menú por defecto */
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+    }
+
+    .nav-list[data-visible="true"] {
+        height: 300px;
+    }
+
+    .nav-list li a {
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* 2. Contenido Principal */
+    .main-content {
+        /* Ocupa el 100% en móvil para eliminar los márgenes laterales */
+        width: 100%;
+        padding: 0 var(--spacing-sm);
+    }
+
+    /* 3. Catálogo (Tablets/Móviles Grandes - 2 columnas) */
+    .product-card {
+        width: calc(50% - 10px); /* 2 columnas */
+    }
+    /* Dentro de @media (max-width: 768px) */
+
+
+}
+
+/* Móviles Pequeños: Diseño de 1 Columna (480px o menos) */
+@media (max-width: 480px) {
+    .product-grid {
+        gap: 15px;
+    }
+
+    .product-card {
+        width: 100%; /* 1 columna */
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+.buy-button:hover, .btn-whatsapp:hover, .btn-pdf:hover {
+    background-color: var(--texto);
+}
+
+/* Modal Emergente */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    border: 4px solid var(--rosa);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--madera);
+}
+
+/* Sistema de Zoom Controlado */
+.modal-img-container {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: zoom-in;
+    position: relative;
+}
+
+.modal-img-container.zoom-active {
+    max-width: 100%;
+    cursor: zoom-out;
+}
+
+.modal-img-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    display: block;
+}
+
+.modal-img-container.zoom-active img {
+    transform: scale(1.6);
+}
+
+
+.auto-slider-track img {
+    width: 33.333%;
+    height: 100%;
+    object-fit: cover; /* Evita que la imagen se deforme */
+    flex-shrink: 0; /* Obliga a que cada imagen ocupe el 100% del ancho */
+}
+
+/* --- CARRUSEL MANUAL (3 DIVS) --- */
+
+.manual-slider-viewport {
+    overflow: hidden; /* Oculta las tarjetas extra */
+    width: 100%;
+}
+
+.slide-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.slide-card h3 {
+    padding: 15px;
+    margin: 0;
+    color: var(--texto);
+    background-color: var(--rosa);
+}
+
+
+
+/* --- NOTIFICACIONES PERSONALIZADAS (ALERTS) --- */
+.custom-alert {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: white;
+    color: var(--color-text-dark);
+    padding: 16px 24px;
+    border-radius: 12px;
+    border-left: 6px solid var(--color-accent); /* Color Madera */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 10000;
+    font-weight: bold;
+    border-top: 1px solid var(--color-primary-dark); /* Rosa Pastel */
+    animation: slideInRight 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(120%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* --- ESTILOS PARA CARRITO.HTML --- */
+.carrito-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid var(--color-primary-dark);
+}
+
+.item-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid var(--color-text-light);
+}
+
+.item-carrito img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carrito-info h4 { margin: 0; color: var(--color-text-dark); }
+.carrito-info p { margin: 0; color: var(--color-accent); font-weight: bold; }
+
+.btn-eliminar {
+    background: #ffeded;
+    color: #d9534f;
+    border: 1px solid #d9534f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrito-total-seccion {
+    text-align: right;
+    margin-top: 25px;
+    padding: 20px;
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 10px;
+}
+
+
+/* Hacerlo responsivo (2 tarjetas en tablets, 1 en celulares) */
+@media (max-width: 900px) {
+    .footer {
+        padding: 16px 10px;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 800px) {
+    .slide-card { flex: 0 0 calc(50% - 10px); }
+    .auto-slider-container { height: 250px; }
+    .footer {
+        padding: 14px 10px;
+        font-size: 0.88rem;
+    }
+}
+@media (max-width: 500px) {
+    .slide-card { flex: 0 0 100%; }
+    .auto-slider-container { height: 180px; }
+    .footer {
+        padding: 12px 8px;
+        font-size: 0.82rem;
+    }
+}
+
+/* Media queries adicionales para móviles */
+@media (max-width: 768px) {
+    .header {
+        height: 80px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+
+    .main-content {
+        width: 100%;
+        margin: var(--spacing-md) auto;
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--spacing-md);
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+    .nav-list {
+        /* 1. Posicionamiento Absoluto sobre la pantalla */
+        position: fixed !important;
+        top: 80px; /* Asegúrate que esto coincida con la altura de tu header */
+        left: 0;
+        width: 100vw;
+        background-color: #f4f4f4;
+        z-index: 99999;
+        
+        /* 2. Forzar el Scroll */
+        display: none; /* Se activa con data-visible */
+        flex-direction: column;
+        flex-wrap: nowrap; /* IMPORTANTE: No permite que los items se encojan */
+        
+        /* 3. Altura fija y comportamiento táctil */
+        height: calc(100vh - 80px) !important; 
+        overflow-y: scroll !important; /* Forzamos la barra de scroll */
+        -webkit-overflow-scrolling: touch; 
+        touch-action: pan-y; /* Permite solo el movimiento vertical del dedo */
+        overscroll-behavior: contain;
+    }
+
+    .nav-list[data-visible="true"] {
+        display: flex !important;
+    }
+
+    .nav-list li {
+        width: 100%;
+        flex: 0 0 auto; /* Cero encogimiento: cada li mantiene su altura real */
+        border-bottom: 1px solid #ddd;
+    }
+
+    .nav-list li a {
+        display: block;
+        padding: 25px 20px; /* Área de toque grande */
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--color-text-dark);
+        text-decoration: none;
+    }
+}
+    .manual-slider-section {
+        margin: var(--spacing-md) 0;
+    }
+
+.manual-slider-wrapper {
+        gap: 5px;
+    }
+    
+    .slider-arrow {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .manual-slider-viewport {
+        width: 85%;
+    }
+
+    .slider-controls {
+        order: 1;
+    }
+
+    .slide-card h3 {
+        font-size: 1rem;
+    }
+}
