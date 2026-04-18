@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Joyería KyA</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Joyería KyA</h1>
+    </header>
+    
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menú</button>
+    
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="index.html" aria-current="page">Inicio</a></li>
+            <li><a href="cadenas.html">Cadenas</a></li>
+            <li><a href="pulseras.html">Pulseras</a></li>
+            <li><a href="anillos.html">Anillos</a></li>
+            <li><a href="aretes.html">Aretes</a></li>
+            <li><a href="estuches.html">Alhajeros</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+
+    <section class="auto-slider-container">
+        <div class="auto-slider-track" id="autoTrack">
+            <img src="img/Portadas/S1.jpeg" alt="Banner 1">
+            <img src="img/Portadas/S2.jpeg" alt="Banner 2">
+            <img src="img/Portadas/S3.jpeg" alt="Banner 3">
+           
+        </div>
+    </section>
+
+    <main class="manual-slider-section">
+        <h2 class="category-title" style="color: var(--madera); text-align: center; margin-bottom: 20px;">Colecciones Destacadas</h2>
+        
+        <div class="manual-slider-wrapper">
+             
+            <button class="slider-arrow" onclick="moverCarruselManual(-1)">&#10094;</button>
+            
+            <div class="manual-slider-viewport">
+                
+                <div class="manual-slider-track" id="manualTrack">
+                    <div class="slide-card">
+                        <img src="img/Portadas/S6.jpeg" alt="Cadenas">
+                        <h3>Cadenas</h3>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/Portadas/S7.jpeg" alt="Pulseras">
+                        <h3>Pulseras</h3>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/Portadas/S5.jpeg" alt="Anillos">
+                        <h3>Anillos</h3>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/Portadas/S21.jpeg" alt="Aretes">
+                        <h3>Aretes</h3>
+                    </div>
+                    <div class="slide-card">
+                        <img src="img/Portadas/S20.jpeg" alt="Alhajeros">
+                        <h3>Alhajeros</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow" onclick="moverCarruselManual(1)">&#10095;</button>
+
+           
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Joyería de Acero Inoxidable - Calidad y Estilo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
