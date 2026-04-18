@@ -1,0 +1,110 @@
+[
+  {
+    "id": "R001",
+    "nombre": "Arracada Serpiente",
+    "material": "Material: Oro Laminado",
+    "medida": "Diámetro: 20 mm",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R1.jpeg",
+    "alt": "Arracadas clásicas de acero"
+  },
+  {
+    "id": "R002",
+    "nombre": "Arracada Cruz",
+    "material": "Material: Oro Laminado",
+    "medida": "Tamaño: Mini",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R2.jpeg",
+    "alt": "Aretes pequeños forma de mariposa"
+  },
+  {
+    "id": "R003",
+    "nombre": "Arracada corazones",
+    "material": "Material: Oro Laminado",
+    "medida": "Largo: 3 cm",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R3.jpeg",
+    "alt": "Aretes con dije de cruz"
+  },
+  {
+    "id": "R004",
+    "nombre": "Arracada Zirconias",
+    "material": "Material: Oro Laminado",
+    "medida": "Diámetro: 12 mm",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R4.jpeg",
+    "alt": "Arracadas pequeñas con piedras"
+  },
+  {
+    "id": "R005",
+    "nombre": "Arracada X Zirconia",
+    "material": "Material: Oro Laminado",
+    "medida": "Tamaño: 8 mm",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R5.jpeg",
+    "alt": "Aretes clásicos de perla"
+  },
+  {
+    "id": "R006",
+    "nombre": "Arracada Mariposa Morada",
+    "material": "Material: Oro Laminado",
+    "medida": "Diámetro: 25 mm",
+    "precio": "60.00",
+    "imagen": "img/Aretes/R6.jpeg",
+    "alt": "Aros con dije de estrella"
+  },
+  {
+    "id": "R007",
+    "nombre": "Broquel Mariposa",
+    "material": "Material: Oro Laminado",
+    "medida": "Diámetro: 25 mm",
+    "precio": "45.00",
+    "imagen": "img/Aretes/R9.jpeg",
+    "alt": "Aros con dije de mariposa"
+  },
+  {
+    "id": "R008",
+    "nombre": "Broquel Moño",
+    "material": "Material: Oro Laminado",
+    "medida": "Tamaño: 12 mm",
+    "precio": "45.00",
+    "imagen": "img/Aretes/R10.jpeg",
+    "alt": "Aretes pequeños con forma de flor"
+  },
+  {
+    "id": "R009",
+    "nombre": "Broquel cerezas",
+    "material": "Material: Oro Laminado",
+    "medida": "Largo: 4 cm",
+    "precio": "45.00",
+    "imagen": "img/Aretes/R11.jpeg",
+    "alt": "Aretes colgantes con dije de corazón"
+  },
+  {
+    "id": "R010",
+    "nombre": "broquel flor",
+    "material": "Material: Oro Laminado",
+    "medida": "Diámetro: 28 mm",
+    "precio": "45.00",
+    "imagen": "img/Aretes/R12.jpeg",
+    "alt": "Aros con dije de sol"
+  },
+  {
+    "id": "R011",
+    "nombre": "Broquel Luna y estrella",
+    "material": "Material: Oro Laminado",
+    "medida": "Tamaño: 10 mm",
+    "precio": "40.00",
+    "imagen": "img/Aretes/R13.jpeg",
+    "alt": "Aretes pequeños con forma de estrella"
+  },
+  {
+    "id": "R012",
+    "nombre": "Broquel Corazon",
+    "material": "Material: Oro Laminado",
+    "medida": "Largo: 3.5 cm",
+    "precio": "50.00",
+    "imagen": "img/Aretes/R14.jpeg",
+    "alt": "Aretes colgantes con dije de mariposa"
+  }
+]

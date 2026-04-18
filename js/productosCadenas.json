@@ -1,0 +1,497 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Cadena con dije piedra zirconia",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C0.jpeg",
+    "alt": "Cadena 0"
+  },
+  {
+    "id": "C002",
+    "nombre": "Cadena con dije de Flor giratorio",
+    "material": "Material: Oro Laminado",
+    "color": "Dorado / Rosa",
+    "precio": "90.00",
+    "imagen": "img/Cadenas/C1.jpeg",
+    "alt": "Cadena 1"
+  },
+  {
+    "id": "C003",
+    "nombre": "Cadena Con dije piedra de zirconia",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Blanco",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C2.jpeg",
+    "alt": "Cadena 2"
+  },
+  {
+    "id": "C004",
+    "nombre": "Cadena con dije Triangular",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C5.jpeg",
+    "alt": "Cadena 5"
+  },
+  {
+    "id": "C005",
+    "nombre": "Cadena doble Tifanny con dije de candado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C6.jpeg",
+    "alt": "Cadena 6"
+  },
+  {
+    "id": "C006",
+    "nombre": "Cadena con dije de pluma",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "65.00",
+    "imagen": "img/Cadenas/C7.jpeg",
+    "alt": "Cadena 7"
+  },
+  {
+    "id": "C007",
+    "nombre": "Cadena doble Tifanny con dije de candado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorada",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C8.jpeg",
+    "alt": "Cadena 8"
+  },
+  {
+    "id": "C008",
+    "nombre": "Cadena doble Tifanny con dije circular",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorada",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C9.jpeg",
+    "alt": "Cadena 9"
+  },
+  {
+    "id": "C009",
+    "nombre": "Cadena doble Tifanny con dije llave y candado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C10.jpeg",
+    "alt": "Cadena 10"
+  },
+  {
+    "id": "C010",
+    "nombre": "Cadena doble Tifanny con dije llave y candado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C11.jpeg",
+    "alt": "Cadena 11"
+  },
+  {
+    "id": "C011",
+    "nombre": "Cadena doble Tifanny con dije de candado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Rosa",
+    "precio": "250.00",
+    "imagen": "img/Cadenas/C14.jpeg",
+    "alt": "Cadena 14"
+  },
+  {
+    "id": "C012",
+    "nombre": "Cadena de figuras estrellas",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C15.jpeg",
+    "alt": "Cadena 15"
+  },
+  {
+    "id": "C013",
+    "nombre": "Cadena de figuras flor",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C16.jpeg",
+    "alt": "Cadena 16"
+  },
+  {
+    "id": "C014",
+    "nombre": "Cadena de figuras media luna",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C17.jpeg",
+    "alt": "Cadena 17"
+  },
+  {
+    "id": "C015",
+    "nombre": "Cadena de figuras cruz ",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C18.jpeg",
+    "alt": "Cadena 18"
+  },
+  {
+    "id": "C016",
+    "nombre": "Cadena de figuras corazon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C19.jpeg",
+    "alt": "Cadena 19"
+  },
+  {
+    "id": "C017",
+    "nombre": "Cadena de figuras corazon sin centro",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C20.jpeg",
+    "alt": "Cadena 20"
+  },
+  {
+    "id": "C018",
+    "nombre": "Cadena con dije rosa de los vientos ",
+    "material": "Material: Acero Inoxidable",
+    "color": "Largo: 50 cm",
+    "precio": "50.00",
+    "imagen": "img/Cadenas/C22.jpeg",
+    "alt": "Cadena 22"
+  },
+  {
+    "id": "C019",
+    "nombre": "Cadena de figuras corazon inflado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "25.00",
+    "imagen": "img/Cadenas/C23.jpeg",
+    "alt": "Cadena 23"
+  },
+  {
+    "id": "C020",
+    "nombre": "Cadena con dije esfera",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C24.jpeg",
+    "alt": "Cadena 24"
+  },
+  {
+    "id": "C021",
+    "nombre": "Cadena con dije de estrella",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C25.jpeg",
+    "alt": "Cadena 25"
+  },
+  {
+    "id": "C022",
+    "nombre": "Cadena panza de vibora y dije corazon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C28.jpeg",
+    "alt": "Cadena 28"
+  },
+  {
+    "id": "C023",
+    "nombre": "Cadena con dije nudo de bruja",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C30.jpeg",
+    "alt": "Cadena 30"
+  },
+  {
+    "id": "C024",
+    "nombre": "Cadena con relicario de corazon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Termico",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C32.jpeg",
+    "alt": "Cadena 32"
+  },
+  {
+    "id": "C025",
+    "nombre": "Cadena con dije Marihuana",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Termico",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C33.jpeg",
+    "alt": "Cadena 33"
+  },
+  {
+    "id": "C026",
+    "nombre": "Cadena con dije nudo de bruja",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C35.jpeg",
+    "alt": "Cadena 35"
+  },
+  {
+    "id": "C027",
+    "nombre": "Cadena doble con dije atrapa sueños",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C36.jpeg",
+    "alt": "Cadena 36"
+  },
+  {
+    "id": "C028",
+    "nombre": "Rosario con piedra ojo de gato",
+    "material": "Material: Acero Inoxidable",
+    "color": "Morado",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C37.jpeg",
+    "alt": "Cadena 37"
+  },
+  {
+    "id": "C029",
+    "nombre": "Cadena con dije aguila",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Rojo",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C38.jpeg",
+    "alt": "Cadena 38"
+  },
+  {
+    "id": "C030",
+    "nombre": "Rosario con piedra ojo de gato",
+    "material": "Material: Acero Inoxidable",
+    "color": "Blanco",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C39.jpeg",
+    "alt": "Cadena 39"
+  },
+  {
+    "id": "C031",
+    "nombre": "Cadena con dije crusifijo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C40.jpeg",
+    "alt": "Cadena 40"
+  },
+  {
+    "id": "C032",
+    "nombre": "Cadena con dije San Benito",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C41.jpeg",
+    "alt": "Cadena 41"
+  },
+  {
+    "id": "C033",
+    "nombre": "Cadena con dije de colmillo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C43.jpeg",
+    "alt": "Cadena 43"
+  },
+  {
+    "id": "C034",
+    "nombre": "Cadena con dije doble vista crusifijo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C44.jpeg",
+    "alt": "Cadena 44"
+  },
+  {
+    "id": "C035",
+    "nombre": "Cadena con dije crusifijo chico",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C45.jpeg",
+    "alt": "Cadena 45"
+  },
+  {
+    "id": "C036",
+    "nombre": "Cadena con dije de bala",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Negro",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C46.jpeg",
+    "alt": "Cadena 46"
+  },
+  {
+    "id": "C037",
+    "nombre": "Cadena con dije de craneo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C47.jpeg",
+    "alt": "Cadena 47"
+  },
+  {
+    "id": "C038",
+    "nombre": "Cadena con dije de Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C48.jpeg",
+    "alt": "Cadena 48"
+  },
+  {
+    "id": "C039",
+    "nombre": "Cadena con dije de timon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C49.jpeg",
+    "alt": "Cadena 49"
+  },
+  {
+    "id": "C040",
+    "nombre": "Cadena con dije de guitarra",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "75.00",
+    "imagen": "img/Cadenas/C50.jpeg",
+    "alt": "Cadena 50"
+  },
+  {
+    "id": "C041",
+    "nombre": "Cadena con dije escorpion",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C51.jpeg",
+    "alt": "Cadena 51"
+  },
+  {
+    "id": "C042",
+    "nombre": "Cadena con dije San Judas Tadeo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C52.jpeg",
+    "alt": "Cadena 52"
+  },
+  {
+    "id": "C043",
+    "nombre": "Cadena con dije Cruz ",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorada / Plateada",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C54.jpeg",
+    "alt": "Cadena 54"
+  },
+  {
+    "id": "C044",
+    "nombre": "Cadena cion dije de panda",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateada",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C55.jpeg",
+    "alt": "Cadena 55"
+  },
+  {
+    "id": "C045",
+    "nombre": "Cadena con dije de timon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateada",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C56.jpeg",
+    "alt": "Cadena 56"
+  },
+  {
+    "id": "C046",
+    "nombre": "Cadena con dije Virgen de Guadalupe",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C57q.jpeg",
+    "alt": "Cadena 57q"
+  },
+  {
+    "id": "C047",
+    "nombre": "Cadena con dije San Judas Tadeo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C58.jpeg",
+    "alt": "Cadena 58"
+  },
+  {
+    "id": "C048",
+    "nombre": "Cadena con dije de calabera con hacha",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C59.jpeg",
+    "alt": "Cadena 59"
+  },
+  {
+    "id": "C049",
+    "nombre": "Cadena con dije San Judas Tadeo",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateada",
+    "precio": "75.00",
+    "imagen": "img/Cadenas/C60.jpeg",
+    "alt": "Cadena 60"
+  },
+  {
+    "id": "C050",
+    "nombre": "Cadena con dije aguila",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Negro",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C61.jpeg",
+    "alt": "Cadena 61"
+  },
+  {
+    "id": "C051",
+    "nombre": "Cadena con dije Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Negro",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C62.jpeg",
+    "alt": "Cadena 62"
+  },
+  {
+    "id": "C052",
+    "nombre": "Cadena con dije delfin",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C63.jpeg",
+    "alt": "Cadena 63"
+  },
+  {
+    "id": "C053",
+    "nombre": "Cadena Cubana con Corazon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Rosa",
+    "precio": "150.00",
+    "imagen": "img/Cadenas/C64.jpeg",
+    "alt": "Cadena 64"
+  },
+  {
+    "id": "C054",
+    "nombre": "Cadena figuras de bolita",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateada",
+    "precio": "20.00",
+    "imagen": "img/Cadenas/C65.jpeg",
+    "alt": "Cadena 65"
+  },
+  {
+    "id": "C055",
+    "nombre": "Cadena con dije de tigre",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C67.jpeg",
+    "alt": "Cadena 67"
+  }
+]

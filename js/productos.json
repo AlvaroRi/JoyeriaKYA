@@ -1,0 +1,111 @@
+[
+  {
+    "id": "B001",
+    "nombre": "Cadena Clásica",
+    "material": "Material: Acero 316L",
+    "medida": "Largo: 50 cm",
+    "precio": "199.00",
+    "imagen": "img/Cadenas/C0.jpeg",
+    "alt": "Cadena de eslabones finos de acero inoxidable"
+  },
+  {
+    "id": "B002",
+    "nombre": "Gargantilla Corazón",
+    "material": "Material: Acero Inox. Dorado",
+    "medida": "Largo: 40 cm + ext.",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C1.jpeg",
+    "alt": "Gargantilla corta con dije de corazón"
+  },
+  {
+    "id": "B003",
+    "nombre": "Cadena Cubana",
+    "material": "Material: Acero Inoxidable",
+    "medida": "Largo: 60 cm",
+    "precio": "310.00",
+    "imagen": "img/Cadenas/C2.jpeg",
+    "alt": "Cadena de eslabones gruesos estilo cubano"
+  },
+  {
+    "id": "B004",
+    "nombre": "Cadena Candado",
+    "material": "Material: Acero inoxidable",
+    "medida": "Largo: 45 cm",
+    "precio": "30.00",
+    "imagen": "img/Cadenas/C3.jpeg",
+    "alt": "Cadena fina con detalles"
+  },
+  {
+    "id": "B005",
+    "nombre": "Cadena Conejo",
+    "material": "Material: Niquel",
+    "medida": "Largo: 80 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C4.jpeg",
+    "alt": "Cadena extra larga"
+  },
+  {
+    "id": "B006",
+    "nombre": "Caneda Guitarra",
+    "material": "Material: Niquel",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C5.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B007",
+    "nombre": "Cadena Dije Termico",
+    "material": "Material: Acero Inox. Plateado",
+    "medida": "Largo: 35 cm",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C6.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B008",
+    "nombre": "Cadena Cristo Mini",
+    "material": "Material: Acero Inox. plateadio",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C7.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B009",
+    "nombre": "Cadena Cristo Mediana",
+    "material": "Material: Acero Inox. Combinado",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C8.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B010",
+    "nombre": "Cadena Cristo Mediana",
+    "material": "Material: Acero Inox. Combinado",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C9.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B011",
+    "nombre": "Cadena Cristo Mediana",
+    "material": "Material: Acero Inox. Combinado",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C10.jpeg",
+    "alt": ""
+  },
+  {
+    "id": "B012",
+    "nombre": "Cadena Cristo Mediana",
+    "material": "Material: Acero Inox. Combinado",
+    "medida": "Largo: 35 cm",
+    "precio": "35.00",
+    "imagen": "img/Cadenas/C11.jpeg",
+    "alt": ""
+  }
+]
+

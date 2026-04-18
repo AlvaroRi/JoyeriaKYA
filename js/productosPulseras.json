@@ -1,0 +1,182 @@
+[
+  {
+    "id": "P001",
+    "nombre": "Pulsera Cubana",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "120.00",
+    "imagen": "img/Pulseras/P1.jpeg",
+    "alt": "Pulsera 1"
+  },
+  {
+    "id": "P002",
+    "nombre": "Pulsera placa panza de vibora",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P2.jpeg",
+    "alt": "Pulsera 2"
+  },
+  {
+    "id": "P003",
+    "nombre": "Pulsera eslabon con placa chica",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P3.jpeg",
+    "alt": "Pulsera 3"
+  },
+  {
+    "id": "P004",
+    "nombre": "Pulsera banclip panza de vibora",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P4.jpeg",
+    "alt": "Pulsera 4"
+  },
+  {
+    "id": "P005",
+    "nombre": "Pulsera Girasoles",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "80.00",
+    "imagen": "img/Pulseras/P5.jpeg",
+    "alt": "Pulsera 5"
+  },
+  {
+    "id": "P006",
+    "nombre": "Pulsera torsal",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P6.jpeg",
+    "alt": "Pulsera 6"
+  },
+  {
+    "id": "P007",
+    "nombre": "Pulsera treboles",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P7.jpeg",
+    "alt": "Pulsera 7"
+  },
+  {
+    "id": "P008",
+    "nombre": "tobillera con dijes",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P8.jpeg",
+    "alt": "Pulsera 8"
+  },
+  {
+    "id": "P009",
+    "nombre": "Pulsera banclip panza de vibora",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P9.jpeg",
+    "alt": "Pulsera 9"
+  },
+  {
+    "id": "P010",
+    "nombre": "Pulsera doble de moños",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "40.00",
+    "imagen": "img/Pulseras/P10.jpeg",
+    "alt": "Pulsera 10"
+  },
+  {
+    "id": "P011",
+    "nombre": "Pulsera placa panza de vibora",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "35.00",
+    "imagen": "img/Pulseras/P11.jpeg",
+    "alt": "Pulsera 11"
+  },
+  {
+    "id": "P012",
+    "nombre": "Pulsera trnzado con tubos",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "35.00",
+    "imagen": "img/Pulseras/P12.jpeg",
+    "alt": "Pulsera 12"
+  },
+  {
+    "id": "P013",
+    "nombre": "Pulsera eslabon con placa chica",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "40.00",
+    "imagen": "img/Pulseras/P13.jpeg",
+    "alt": "Pulsera 13"
+  },
+  {
+    "id": "P014",
+    "nombre": "Pulsera eslabon con placa grande",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Pulseras/P14.jpeg",
+    "alt": "Pulsera 14"
+  },
+  {
+    "id": "P015",
+    "nombre": "Pulsera San Benito y piedreria",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "40.00",
+    "imagen": "img/Pulseras/P15.jpeg",
+    "alt": "Pulsera 15"
+  },
+  {
+    "id": "P016",
+    "nombre": "Pulsera torsal mediana",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "45.00",
+    "imagen": "img/Pulseras/P16.jpeg",
+    "alt": "Pulsera 16"
+  },
+  {
+    "id": "P018",
+    "nombre": "Pulsera eslabon panza de vibora",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "35.00",
+    "imagen": "img/Pulseras/P18.jpeg",
+    "alt": "Pulsera 18"
+  },
+  {
+    "id": "P019",
+    "nombre": "Pulsera eslabon con placa mediana",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "50.00",
+    "imagen": "img/Pulseras/P19.jpeg",
+    "alt": "Pulsera 19"
+  },
+  {
+    "id": "P020",
+    "nombre": "Pulsera estalbon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "50.00",
+    "imagen": "img/Pulseras/P20.jpeg",
+    "alt": "Pulsera 20"
+  },
+  {
+    "id": "P021",
+    "nombre": "Pulsera cubana",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "100.00",
+    "imagen": "img/Pulseras/P21.jpeg",
+    "alt": "Pulsera 21"
+  }
+]

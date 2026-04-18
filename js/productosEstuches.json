@@ -1,0 +1,66 @@
+[
+  {
+    "id": "E001",
+    "nombre": "Alhajero de Estrella",
+    "material": "Material: Terciopelo",
+    "color": "Color: Azul",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E1.jpeg",
+    "imagen2": "img/Estuches/E2.jpeg",
+    "alt": "Caja rosa para regalo"
+  },
+  {
+    "id": "E002",
+    "nombre": "Alhajero de Estrella",
+    "material": "Material: Cartón Rígido",
+    "color": "Color: Rosa",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E2.jpeg",
+    "alt": "Estuche alargado para collares"
+  },
+  {
+    "id": "E003",
+    "nombre": "Alhajero de Birrete",
+    "material": "Material: Terciopelo",
+    "color": "Color: Azul",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E3.jpeg",
+    "alt": "Bolsa pequeña de tela"
+  },
+  {
+    "id": "E004",
+    "nombre": "Alhajero CupCake",
+    "material": "Material: Terciopelo",
+    "color": "Color: Morado",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E6.jpeg",
+    "alt": "Caja de lujo para joyería"
+  },
+  {
+    "id": "E005",
+    "nombre": "Alhajero Cuadrado",
+    "material": "Material: Terciopelo",
+    "color": "Color: Rojo",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E7.jpeg",
+    "alt": "Organizador pequeño portátil"
+  },
+  {
+    "id": "E006",
+    "nombre": "Alhajero de Almeja",
+    "material": "Material: Terciopelo",
+    "color": "Color: Rojo",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E9.jpeg",
+    "alt": "Organizador pequeño portátil"
+  },
+  {
+    "id": "E007",
+    "nombre": "Alhajero de Rosa",
+    "material": "Material: Terciopelo",
+    "color": "Color: Rosa",
+    "precio": "35.00",
+    "imagen": "img/Estuches/E12.jpeg",
+    "alt": "Organizador pequeño portátil"
+  }
+]
