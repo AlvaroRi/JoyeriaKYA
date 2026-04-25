@@ -493,5 +493,293 @@
     "precio": "70.00",
     "imagen": "img/Cadenas/C67.jpeg",
     "alt": "Cadena 67"
+  },
+  {
+    "id": "C056",
+    "nombre": "Cadena con dije de punto cardinal",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "65.00",
+    "imagen": "img/Cadenas/C68.jpeg",
+    "alt": "Cadena 68"
+  },
+  {
+    "id": "C057",
+    "nombre": "Cadena con dije crusifijo grande",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C69.jpeg",
+    "alt": "Cadena 69"
+  },
+  {
+    "id": "C058",
+    "nombre": "Cadena con dije Corazón",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C70.jpeg",
+    "alt": "Cadena 70"
+  },
+  {
+    "id": "C059",
+    "nombre": "Cadena con dije cruz jinjan",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "100.00",
+    "imagen": "img/Cadenas/C71.jpeg",
+    "alt": "Cadena 71"
+  },
+  {
+    "id": "C060",
+    "nombre": "Cadena con dije virgen de Guadalupe",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C72.jpeg",
+    "alt": "Cadena 72"
+  },
+  {
+    "id": "C061",
+    "nombre": "Cadena con dije Virgen de Guadalupe",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C73.jpeg",
+    "alt": "Cadena 73"
+  },
+  {
+    "id": "C062",
+    "nombre": "Cadena con dije de Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C74.jpeg",
+    "alt": "Cadena 74"
+  },
+  {
+    "id": "C063",
+    "nombre": "Cadena con dije de Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Azul",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C76.jpeg",
+    "alt": "Cadena 76"
+  },
+  {
+    "id": "C065",
+    "nombre": "Cadena con dije de San Judas",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C77.jpeg",
+    "alt": "Cadena 77"
+  },
+  {
+    "id": "C066",
+    "nombre": "Cadena con dije de Cruz y Zirconia",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C78.jpeg",
+    "alt": "Cadena 78"
+  },
+  {
+    "id": "C067",
+    "nombre": "Cadena con dije de Cruz de Alas",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C79.jpeg",
+    "alt": "Cadena 79"
+  },
+  {
+    "id": "C068",
+    "nombre": "Cadena con dije de Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C80.jpeg",
+    "alt": "Cadena 80"
+  },
+  {
+    "id": "C069",
+    "nombre": "Cadena con dije de Cruz Mini",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "45.00",
+    "imagen": "img/Cadenas/C81.jpeg",
+    "alt": "Cadena 81"
+  },
+  {
+    "id": "C070",
+    "nombre": "Cadena con dije de Nudo de Bruja",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "55.00",
+    "imagen": "img/Cadenas/C82.jpeg",
+    "alt": "Cadena 82"
+  },
+  {
+    "id": "C071",
+    "nombre": "Cadena con dije de Cruz",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Negro",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C83.jpeg",
+    "alt": "Cadena 83"
+  },
+  {
+    "id": "C072",
+    "nombre": "Cadena eslabon trensado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C84.jpeg",
+    "alt": "Cadena 84"
+  },
+  {
+    "id": "C073",
+    "nombre": "Cadena eslabon trensado",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C85.jpeg",
+    "alt": "Cadena 85"
+  },
+  {
+    "id": "C074",
+    "nombre": "Cadena torsal",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "90.00",
+    "imagen": "img/Cadenas/C86.jpeg",
+    "alt": "Cadena 86"
+  },
+  {
+    "id": "C075",
+    "nombre": "Cadena torsal",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C87.jpeg",
+    "alt": "Cadena 87"
+  },
+  {
+    "id": "C076",
+    "nombre": "Cadena torsal",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C88.jpeg",
+    "alt": "Cadena 88"
+  },
+  {
+    "id": "C078",
+    "nombre": "Cadena estabon plano",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "75.00",
+    "imagen": "img/Cadenas/C90.jpeg",
+    "alt": "Cadena 90"
+  },
+  {
+    "id": "C079",
+    "nombre": "Cadena con dije de guitarra",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C91.jpeg",
+    "alt": "Cadena 91"
+  },
+  {
+    "id": "C080",
+    "nombre": "Cadena eslabon plano",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "75.00",
+    "imagen": "img/Cadenas/C92.jpeg",
+    "alt": "Cadena 92"
+  },
+  {
+    "id": "C081",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C93.jpeg",
+    "alt": "Cadena 93"
+  },
+  {
+    "id": "C082",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "75.00",
+    "imagen": "img/Cadenas/C94.jpeg",
+    "alt": "Cadena 94"
+  },
+  {
+    "id": "C083",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C95.jpeg",
+    "alt": "Cadena 95"
+  },
+  {
+    "id": "C085",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "65.00",
+    "imagen": "img/Cadenas/C97.jpeg",
+    "alt": "Cadena 97"
+  },
+  {
+    "id": "C086",
+    "nombre": "Cadena eslabon plano",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C98.jpeg",
+    "alt": "Cadena 98"
+  },
+  {
+    "id": "C087",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C99.jpeg",
+    "alt": "Cadena 99"
+  },
+  {
+    "id": "C089",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado / Dorado",
+    "precio": "80.00",
+    "imagen": "img/Cadenas/C101.jpeg",
+    "alt": "Cadena 101"
+  },
+  {
+    "id": "C090",
+    "nombre": "Cadena cartier",
+    "material": "Material: Acero Inoxidable",
+    "color": "Negro",
+    "precio": "70.00",
+    "imagen": "img/Cadenas/C102.jpeg",
+    "alt": "Cadena 102"
+  },
+  {
+    "id": "C091",
+    "nombre": "Cadena plana con dije de corazon",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "60.00",
+    "imagen": "img/Cadenas/C103.jpeg",
+    "alt": "Cadena 103"
   }
 ]

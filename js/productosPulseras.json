@@ -178,5 +178,95 @@
     "precio": "100.00",
     "imagen": "img/Pulseras/P21.jpeg",
     "alt": "Pulsera 21"
+  },
+  {
+    "id": "P022",
+    "nombre": "Pulsera de red y dije",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "50.00",
+    "imagen": "img/Pulseras/P22.jpeg",
+    "alt": "Pulsera 22"
+  },
+  {
+    "id": "P023",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "75.00",
+    "imagen": "img/Pulseras/P23.jpeg",
+    "alt": "Pulsera 23"
+  },
+  {
+    "id": "P024",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dora  ",
+    "precio": "70.00",
+    "imagen": "img/Pulseras/P24.jpeg",
+    "alt": "Pulsera 21"
+  },
+  {
+    "id": "P025",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "65.00",
+    "imagen": "img/Pulseras/P25.jpeg",
+    "alt": "Pulsera 25"
+  },
+  {
+    "id": "P027",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Dorado",
+    "precio": "60.00",
+    "imagen": "img/Pulseras/P27.jpeg",
+    "alt": "Pulsera 27"
+  },
+  {
+    "id": "P028",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "70.00",
+    "imagen": "img/Pulseras/P28.jpeg",
+    "alt": "Pulsera 28"
+  },
+  {
+    "id": "P030",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "65.00",
+    "imagen": "img/Pulseras/P30.jpeg",
+    "alt": "Pulsera 30"
+  },
+  {
+    "id": "P031",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "60.00",
+    "imagen": "img/Pulseras/P31.jpeg",
+    "alt": "Pulsera 31"
+  },
+  {
+    "id": "P032",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "55.00",
+    "imagen": "img/Pulseras/P32.jpeg",
+    "alt": "Pulsera 21"
+  },
+  {
+    "id": "P033",
+    "nombre": "Pulsera cartier con placa",
+    "material": "Material: Acero Inoxidable",
+    "color": "Plateado",
+    "precio": "40.00",
+    "imagen": "img/Pulseras/P33.jpeg",
+    "alt": "Pulsera 21"
   }
 ]
