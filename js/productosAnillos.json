@@ -3,7 +3,7 @@
     "id": "A001",
     "nombre": "Anillo giratorio flor piedra zirconia",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/A1.jpeg",
     "alt": "Anillo 1"
@@ -12,16 +12,16 @@
     "id": "A002",
     "nombre": "Anillo giratorio flor",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/a2.jpeg",
     "alt": "Anillo 2"
   },
   {
     "id": "A003",
-    "nombre": "Anillo giratorio corazon zirconia",
+    "nombre": "Anillo giratorio corazón zirconia",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/a3.jpeg",
     "alt": "Anillo 3"
@@ -30,7 +30,7 @@
     "id": "A004",
     "nombre": "Anillo giratorio girasol piedra zirconia",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/a4.jpeg",
     "alt": "Anillo 4"
@@ -39,16 +39,16 @@
     "id": "A005",
     "nombre": "Anillo giratorio girasol",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/A5.jpeg",
     "alt": "Anillo 5"
   },
   {
     "id": "A006",
-    "nombre": "Anillo giratorio corazon rosa",
+    "nombre": "Anillo giratorio corazón rosa",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/A6.jpeg",
     "alt": "Anillo 6"
@@ -57,7 +57,7 @@
     "id": "A007",
     "nombre": "Anillo giratorio flor Girasol",
     "material": "Material: Oro laminado",
-    "color": "Talla: Unitalla",
+    "color": "Talla: Ajustable",
     "precio": "65.00",
     "imagen": "img/Anillos/A7.jpeg",
     "alt": "Anillo 7"

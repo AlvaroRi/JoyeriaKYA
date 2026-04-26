@@ -82,7 +82,7 @@
   },
   {
     "id": "R010",
-    "nombre": "broquel flor",
+    "nombre": "Broquel flor",
     "material": "Material: Oro Laminado",
     "medida": "Diámetro: 28 mm",
     "precio": "45.00",
@@ -100,7 +100,7 @@
   },
   {
     "id": "R012",
-    "nombre": "Broquel Corazon",
+    "nombre": "Broquel Corazón",
     "material": "Material: Oro Laminado",
     "medida": "Largo: 3.5 cm",
     "precio": "50.00",

@@ -10,7 +10,7 @@
   },
   {
     "id": "P002",
-    "nombre": "Pulsera placa panza de vibora",
+    "nombre": "Pulsera placa panza de víbora",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -19,7 +19,7 @@
   },
   {
     "id": "P003",
-    "nombre": "Pulsera eslabon con placa chica",
+    "nombre": "Pulsera eslabón con placa chica",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -28,7 +28,7 @@
   },
   {
     "id": "P004",
-    "nombre": "Pulsera banclip panza de vibora",
+    "nombre": "Pulsera banclip panza de víbora",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -55,7 +55,7 @@
   },
   {
     "id": "P007",
-    "nombre": "Pulsera treboles",
+    "nombre": "Pulsera Tréboles",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -64,7 +64,7 @@
   },
   {
     "id": "P008",
-    "nombre": "tobillera con dijes",
+    "nombre": "Tobillera con dijes",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -73,7 +73,7 @@
   },
   {
     "id": "P009",
-    "nombre": "Pulsera banclip panza de vibora",
+    "nombre": "Pulsera banclip panza de víbora",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "45.00",
@@ -82,7 +82,7 @@
   },
   {
     "id": "P010",
-    "nombre": "Pulsera doble de moños",
+    "nombre": "Pulsera doble de Moños",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "40.00",
@@ -91,7 +91,7 @@
   },
   {
     "id": "P011",
-    "nombre": "Pulsera placa panza de vibora",
+    "nombre": "Pulsera placa panza de víbora",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "35.00",
@@ -100,7 +100,7 @@
   },
   {
     "id": "P012",
-    "nombre": "Pulsera trnzado con tubos",
+    "nombre": "Pulsera trenzado con tubos",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "35.00",
@@ -109,7 +109,7 @@
   },
   {
     "id": "P013",
-    "nombre": "Pulsera eslabon con placa chica",
+    "nombre": "Pulsera eslabón con placa chica",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "40.00",
@@ -118,7 +118,7 @@
   },
   {
     "id": "P014",
-    "nombre": "Pulsera eslabon con placa grande",
+    "nombre": "Pulsera eslabón con placa grande",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "60.00",
@@ -127,7 +127,7 @@
   },
   {
     "id": "P015",
-    "nombre": "Pulsera San Benito y piedreria",
+    "nombre": "Pulsera San Benito y piedrería",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "40.00",
@@ -144,8 +144,8 @@
     "alt": "Pulsera 16"
   },
   {
-    "id": "P018",
-    "nombre": "Pulsera eslabon panza de vibora",
+    "id": "P017",
+    "nombre": "Pulsera eslabón panza de víbora",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "35.00",
@@ -153,8 +153,8 @@
     "alt": "Pulsera 18"
   },
   {
-    "id": "P019",
-    "nombre": "Pulsera eslabon con placa mediana",
+    "id": "P018",
+    "nombre": "Pulsera eslabón con placa mediana",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "50.00",
@@ -162,8 +162,8 @@
     "alt": "Pulsera 19"
   },
   {
-    "id": "P020",
-    "nombre": "Pulsera estalbon",
+    "id": "P019",
+    "nombre": "Pulsera eslabón",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "50.00",
@@ -171,7 +171,7 @@
     "alt": "Pulsera 20"
   },
   {
-    "id": "P021",
+    "id": "P020",
     "nombre": "Pulsera cubana",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
@@ -180,7 +180,7 @@
     "alt": "Pulsera 21"
   },
   {
-    "id": "P022",
+    "id": "P021",
     "nombre": "Pulsera de red y dije",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
@@ -189,8 +189,8 @@
     "alt": "Pulsera 22"
   },
   {
-    "id": "P023",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P022",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "75.00",
@@ -198,17 +198,17 @@
     "alt": "Pulsera 23"
   },
   {
-    "id": "P024",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P023",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
-    "color": "Dora  ",
+    "color": "Dorado",
     "precio": "70.00",
     "imagen": "img/Pulseras/P24.jpeg",
-    "alt": "Pulsera 21"
+    "alt": "Pulsera 24"
   },
   {
-    "id": "P025",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P024",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "65.00",
@@ -216,8 +216,8 @@
     "alt": "Pulsera 25"
   },
   {
-    "id": "P027",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P025",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Dorado",
     "precio": "60.00",
@@ -225,8 +225,8 @@
     "alt": "Pulsera 27"
   },
   {
-    "id": "P028",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P026",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "70.00",
@@ -234,8 +234,8 @@
     "alt": "Pulsera 28"
   },
   {
-    "id": "P030",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P027",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "65.00",
@@ -243,8 +243,8 @@
     "alt": "Pulsera 30"
   },
   {
-    "id": "P031",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P028",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "60.00",
@@ -252,21 +252,21 @@
     "alt": "Pulsera 31"
   },
   {
-    "id": "P032",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P029",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "55.00",
     "imagen": "img/Pulseras/P32.jpeg",
-    "alt": "Pulsera 21"
+    "alt": "Pulsera 32"
   },
   {
-    "id": "P033",
-    "nombre": "Pulsera cartier con placa",
+    "id": "P030",
+    "nombre": "Pulsera Cartier con placa",
     "material": "Material: Acero Inoxidable",
     "color": "Plateado",
     "precio": "40.00",
     "imagen": "img/Pulseras/P33.jpeg",
-    "alt": "Pulsera 21"
+    "alt": "Pulsera 33"
   }
 ]

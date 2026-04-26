@@ -1,7 +1,7 @@
 [
   {
     "id": "E001",
-    "nombre": "Alhajero de Estrella",
+    "nombre": "Estuche de Estrella",
     "material": "Material: Terciopelo",
     "color": "Color: Azul",
     "precio": "35.00",
@@ -11,7 +11,7 @@
   },
   {
     "id": "E002",
-    "nombre": "Alhajero de Estrella",
+    "nombre": "Estuche de Estrella",
     "material": "Material: Cartón Rígido",
     "color": "Color: Rosa",
     "precio": "35.00",
@@ -20,7 +20,7 @@
   },
   {
     "id": "E003",
-    "nombre": "Alhajero de Birrete",
+    "nombre": "Estuche de Birrete",
     "material": "Material: Terciopelo",
     "color": "Color: Azul",
     "precio": "35.00",
@@ -29,7 +29,7 @@
   },
   {
     "id": "E004",
-    "nombre": "Alhajero CupCake",
+    "nombre": "Estuche Cupcake",
     "material": "Material: Terciopelo",
     "color": "Color: Morado",
     "precio": "35.00",
@@ -38,7 +38,7 @@
   },
   {
     "id": "E005",
-    "nombre": "Alhajero Cuadrado",
+    "nombre": "Estuche Cuadrado",
     "material": "Material: Terciopelo",
     "color": "Color: Rojo",
     "precio": "35.00",
@@ -47,7 +47,7 @@
   },
   {
     "id": "E006",
-    "nombre": "Alhajero de Almeja",
+    "nombre": "Estuche de Almeja",
     "material": "Material: Terciopelo",
     "color": "Color: Rojo",
     "precio": "35.00",
@@ -56,7 +56,7 @@
   },
   {
     "id": "E007",
-    "nombre": "Alhajero de Rosa",
+    "nombre": "Estuche de Rosa",
     "material": "Material: Terciopelo",
     "color": "Color: Rosa",
     "precio": "35.00",
